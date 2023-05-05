@@ -480,25 +480,7 @@ h6 {
   border: 5px solid #111;
   border-radius: 0.5rem;
 }
-.meBg {
-  background-image: url(./asset/meBg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.meTitle {
-  text-align: center;
-  color: #fff;
-  padding-top: 1.5rem;
-  padding-bottom: 2rem;
-}
-.meTitle h2 {
-  font-size: 3rem;
-  font-weight: 800;
-}
-.meTitle h2 span {
-  color: var(--clr-green-dark);
-}
+
 .meContnet {
   width: 80%;
   margin: auto;
@@ -520,67 +502,6 @@ h6 {
   border: 2px solid white;
 }
 
-.channelBg {
-  background-color: var(--clr-green-dark);
-}
-
-.channelBg .channelGrid {
-  display: grid;
-  grid-template-columns: 0.5fr 1fr;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.channelBg .channelGrid .image img {
-  margin-top: 2rem;
-  width: 100%;
-}
-.youtube,
-h2,
-p,
-button {
-  color: #fff;
-}
-.youtube h2 {
-  font-size: 3rem;
-  padding-bottom: 2rem;
-}
-.youtube p {
-  font-size: 1.2rem;
-  padding-bottom: 2rem;
-}
-.youtube .ubtn1 {
-  width: 15vh;
-  border: none;
-  border-radius: 0.5rem;
-  background-color: red;
-}
-.youtube .ubtn2 {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-.youtube .ubtn2 .visit {
-  margin-right: 2rem;
-  width: 20vh;
-  border-radius: 0.7rem;
-  padding: 1rem;
-  background-color: #000;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-.youtube .ubtn2 .guide {
-  margin-left: 2rem;
-  width: 23vh;
-  border: none;
-  border-radius: 0.7rem;
-  padding: 1rem;
-  background-color: #fff;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #000;
-  text-transform: capitalize;
-}
 .bgfollow {
   background-color: #05173e;
   text-align: center;
