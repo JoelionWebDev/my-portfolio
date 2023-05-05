@@ -1,0 +1,17 @@
+.bgfollow {
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .bgfollow {
+    height: 13rem;
+    flex-direction: column;
+    gap: -2rem;
+  }
+  .bgfollow h2 {
+    padding-top: 2rem;
+  }
+}
