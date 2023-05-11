@@ -67,6 +67,7 @@ p {
 }
 .author {
   margin-bottom: 0.25rem;
+  color: rgb(168, 8, 8);
 }
 .job {
   margin-bottom: 0.5rem;
@@ -79,7 +80,8 @@ p {
 }
 .prev-btn,
 .next-btn {
-  color: var(--clr-primary-7);
+  /* color: var(--clr-primary-7); */
+  color: rgb(171, 4, 4);
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
@@ -111,13 +113,13 @@ p {
   width: 100%;
   margin: auto;
   text-align: center;
-  background-color: rgb(192, 198, 10);
   padding: 0.2rem;
   border-radius: 0.3rem;
   font-size: 1.5rem;
   border: none;
   font-weight: 700;
-  color: #030300;
+  color: rgb(2, 3, 61);
+  border: 2px solid rgb(122, 4, 4);
 }
 .review a:hover {
   background-color: rgb(61, 47, 164);

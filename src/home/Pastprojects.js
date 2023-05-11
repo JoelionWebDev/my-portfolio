@@ -45,9 +45,7 @@ const Review = () => {
           <FaQuoteRight />
         </span>
       </div>
-      <h3 style={{ color: "red" }} className="author">
-        {name}
-      </h3>
+      <h3 className="author">{name}</h3>
       <a href={url}>{job}</a>
 
       <p className="info">{text}</p>
