@@ -19,7 +19,7 @@ p {
 .review {
   background: var(--clr-white);
   padding: 1.5rem 2rem;
-  border-radius: var(--radius);
+  /* border-radius: var(--radius); */
   box-shadow: var(--light-shadow);
   transition: var(--transition);
   text-align: center;
@@ -29,9 +29,9 @@ p {
 }
 .img-container {
   position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 50%;
+  /* height: 150px; */
+  /* border-radius: 50%; */
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
@@ -40,7 +40,7 @@ p {
   display: block;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   position: relative;
 }
 .quote-icon {
@@ -64,7 +64,6 @@ p {
   position: absolute;
   top: -0.25rem;
   right: -0.5rem;
-  border-radius: 50%;
 }
 .author {
   margin-bottom: 0.25rem;
@@ -108,9 +107,36 @@ p {
   color: var(--clr-primary-1);
 }
 
+.review a {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(192, 198, 10);
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  border: none;
+  font-weight: 700;
+  color: #030300;
+}
+.review a:hover {
+  background-color: rgb(61, 47, 164);
+  color: #f4f4f0;
+}
 @media (max-width: 700px) {
   h1 {
     font-size: 1.6rem !important;
     width: 500 !important;
+  }
+  .img-container {
+    width: 70%;
+  }
+}
+@media (max-width: 400px) {
+  .img-container {
+    width: 95%;
+  }
+  .review a {
+    font-size: 1rem;
   }
 }

@@ -78,8 +78,8 @@ const Hero = () => {
                 <h4>What I do</h4>
 
                 <p style={{ fontSize: "0.7em", fontWeight: "bold" }}>
-                  I am a Full stack developer, and I also play around with
-                  graphics and a content creator
+                  I am a Full-stack web developer and a digital marketer with
+                  different skills.
                 </p>
                 <div className="dott" id="dott3"></div>
                 <div className="dott" id="dott4"></div>

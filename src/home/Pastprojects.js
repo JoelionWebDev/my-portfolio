@@ -4,7 +4,7 @@ import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 import "./pstproject.css";
 const Review = () => {
   const [index, setIndex] = useState(0);
-  const { name, job, image, text } = people[index];
+  const { name, job, url, image, text } = people[index];
 
   const checkNumber = (number) => {
     if (number > people.length - 1) {
@@ -38,26 +38,31 @@ const Review = () => {
   return (
     <article className="review">
       <h1>My past Projects</h1>
-      <p>I have 6 of my projects here for you to browse through</p>
+      <p>I have 8 of my projects here for you to browse through</p>
       <div className="img-container">
         <img src={image} alt={name} className="person-img" />
         <span className="quote-icon">
           <FaQuoteRight />
         </span>
       </div>
-      <h4 className="author">{name}</h4>
-      <a href="https://twitter.com/JoelionXpress">{job}</a>
+      <h3 style={{ color: "red" }} className="author">
+        {name}
+      </h3>
+      <a href={url}>{job}</a>
+
       <p className="info">{text}</p>
       <div className="button-container">
         <button className="prev-btn" onClick={prevPerson}>
+          prev
           <FaChevronLeft />
         </button>
         <button className="next-btn" onClick={nextPerson}>
           <FaChevronRight />
+          next
         </button>
       </div>
       <button className="random-btn" onClick={randomPerson}>
-        surprise me
+        skip this one
       </button>
     </article>
   );
